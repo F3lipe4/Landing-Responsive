@@ -40,7 +40,7 @@ header {
 }
 
 header>div {
-    max-width: 200px;
+    max-width: 960px;
     width: 100%;
 }
 
@@ -119,6 +119,8 @@ header>:nth-child(2) {
 
 .social-net {
     margin-top: 100px;
+    max-width: 960px;
+    width: 100%;
 }
 
 .social-net i {
@@ -148,6 +150,8 @@ header>:nth-child(2) {
 
 .more-icons {
     margin: 760px 0 0 60px;
+    max-width: 960px;
+    width: 100%;
 }
 
 .more-icons i {
@@ -248,15 +252,14 @@ i:hover {
     }
     .logo{
         text-align: center;
-        margin-left: 30%;
     }
     .social-net{
         flex-direction: row;
-        margin-left: 28%;
+        text-align: center;
+        align-content: center;
     }
     .more-icons{
         flex-direction: row;
-        margin-left: 26%;
     }
     header>:nth-child(2) {
         width: 100%;
