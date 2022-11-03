@@ -243,18 +243,18 @@ i:hover {
     .menu{
         text-align: start;
         margin-top: 20px;
-        margin-left: 40px;
+        margin-left: 15px;
     }
     .logo{
         text-align: center;
-        margin-left: 90px;
+        margin-left: 65px;
     }
     .social-net{
         flex-direction: row;
-        margin-left: 120px;
+        margin-left: 100px;
     }
     .more-icons{
         flex-direction: row;
-        margin-left: 70px;
+        margin-left: 50px;
     }
 }
