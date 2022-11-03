@@ -221,7 +221,7 @@ i:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     .body-left h1{
         font-size: 30px;
     }
