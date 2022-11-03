@@ -40,11 +40,13 @@ header {
 }
 
 header>div {
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
 }
 
 header>:nth-child(2) {
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
 }
 
 .logo {
@@ -239,9 +241,10 @@ i:hover {
         text-align: center;
     }
     .menu{
-        text-align: start;
+        text-align: center;
         margin-top: 20px;
-        margin-left: 20%;
+        margin-left: 0 auto;
+
     }
     .logo{
         text-align: center;
@@ -254,5 +257,11 @@ i:hover {
     .more-icons{
         flex-direction: row;
         margin-left: 26%;
+    }
+    header>:nth-child(2) {
+        width: 100%;
+    }
+    header>div {
+        width: 100%;
     }
 }
