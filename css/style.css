@@ -199,12 +199,9 @@ i:hover {
     }
 }
 
-@media screen and (max-width: 917px) {
+@media screen and (max-width: 931px) {
     .body-left h1{
         font-size: 50px;
-    }
-    .body-left p{
-        font-size: 15px;
     }
 }
 
